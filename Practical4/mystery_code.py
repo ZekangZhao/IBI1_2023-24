@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:
+# Answer:this progress will take 100 times and every time,, total_random_number is always added with a random number from one to ten. Finally, the final number will be printed.
 
 # Import libraries
 # randint allows drawing a random number,

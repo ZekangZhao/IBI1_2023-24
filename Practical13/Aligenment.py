@@ -19,9 +19,9 @@ def read_fasta_file(fasta_file_path):
     return sequence_data
 
 # Read the sequences from the FASTA files
-file_human = read_fasta_file(r"C:\Users\Lenovo\Downloads")
-file_mouse = read_fasta_file(r"C:\Users\Lenovo\Downloads")
-file_rat = read_fasta_file(r"C:\Users\Lenovo\Downloads")
+file_human = read_fasta_file(r"C:\Users\Lenovo\Downloads\human_sequence.fasta")
+file_mouse = read_fasta_file(r"C:\Users\Lenovo\Downloads\mouse_sequence.fasta")
+file_rat = read_fasta_file(r"C:\Users\Lenovo\Downloads\rat_sequence.fasta")
 
 # Extract the sequences
 human_seq, mouse_seq, rat_seq = file_human[0][1], file_mouse[0][1], file_rat[0][1]
